@@ -1,10 +1,8 @@
 import js from "@eslint/js";
-import { useQuery } from "@tanstack/react-query";
+
 import { useState } from "react";
 import ProductCard from "./ProductCard";
 import Pagination from "./Pagination";
-
-const PAGE_SIZE = 10;
 
 const App = () => {
   return (
