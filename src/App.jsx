@@ -39,6 +39,13 @@ const App = () => {
   const handlePageChange = (n) => {
     setCurrentPage(n);
   };
+  const goToNextPage = () => {
+    //  always have to get previous state and chnage that previous state never do currentPage + 1
+    setCurrentPage((prev) => prev + 1);
+  };
+  const goToPrevPage = () => {
+    setCurrentPage((prev) => prev - 1);
+  };
 
   return !data.length ? (
     <h1>Data Not Found</h1>
@@ -49,6 +56,13 @@ const App = () => {
 
         {/* create the array list  n length  */}
         <div className="pagination-number-array-list flex justify-center hover:cursor-pointer">
+          <button
+            disabled={currentPage === 0}
+            onClick={() => goToPrevPage()}
+            className="sm:mr-2  border-1 bg-amber-100 sm:p-2 hover:scale-90"
+          >
+            ⬅️
+          </button>
           {[...Array(noOfPages).keys()].map((n) => (
             <span
               onClick={() => handlePageChange(n)}
@@ -59,6 +73,13 @@ const App = () => {
               {n}
             </span>
           ))}
+          <button
+            disabled={currentPage === noOfPages - 1}
+            onClick={() => goToNextPage()}
+            className="sm:mr-2  border-1 bg-amber-100 sm:p-2 hover:scale-90"
+          >
+            ➡️
+          </button>
         </div>
 
         <div className="flex flex-wrap justify-center">
