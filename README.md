@@ -19,8 +19,8 @@ git clone https://github.com/Sonseldeep/Pagination
   ### cd Pagination
 
 ## 3. ▶️ Run the Project
-    ### chmod +x script.sh
-    ### ./script.sh
+  ### chmod +x script.sh
+  ### ./script.sh
 
 
 
