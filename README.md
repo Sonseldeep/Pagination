@@ -1,12 +1,26 @@
-# React + Vite
+# 📄 Pagination Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and effective pagination implementation to demonstrate dynamic page loading and user-friendly navigation.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Run This Project Locally
 
-## Expanding the ESLint configuration
+Follow these easy steps to get started:
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 1. 📥 Clone the Repository
+
+Paste this URL into your terminal to clone the project:
+
+```bash
+git clone https://github.com/Sonseldeep/Pagination
+```
+## 2. 📁 Navigate to the Project Directory
+  ### cd Pagination
+
+## 3. ▶️ Run the Project
+    ### chmod +x script.sh
+    ### ./script.sh
+
+
+
