@@ -64,14 +64,16 @@ const App = () => {
             ⬅️
           </button>
           {[...Array(noOfPages).keys()].map((n) => (
-            <span
+            <button
               onClick={() => handlePageChange(n)}
-              className="sm:mr-2  border-1 bg-amber-100 sm:p-2 hover:scale-90"
+              className={`sm:mr-2  border-1 bg-amber-100 sm:p-2 hover:scale-90 ${
+                n === currentPage ? "bg-blue-400" : "border-1 bg-amber-100"
+              }`}
               key={n}
             >
               {" "}
               {n}
-            </span>
+            </button>
           ))}
           <button
             disabled={currentPage === noOfPages - 1}
