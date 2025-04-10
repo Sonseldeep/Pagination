@@ -16,11 +16,15 @@ Paste this URL into your terminal to clone the project:
 git clone https://github.com/Sonseldeep/Pagination
 ```
 ## 2. 📁 Navigate to the Project Directory
-  ### cd Pagination
+```bash
+   cd Pagination
+```
 
 ## 3. ▶️ Run the Project
-  ### chmod +x script.sh
-  ### ./script.sh
+```bash
+   chmod +x script.sh
+   ./script.sh
+```
 
 
 
